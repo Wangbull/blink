@@ -1,4 +1,4 @@
-module github.com/epkgs/blink
+module github.com/Wangbull/blink
 
 go 1.20
 
