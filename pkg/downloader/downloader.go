@@ -21,8 +21,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/epkgs/blink/internal/log"
-	"github.com/epkgs/blink/pkg/alert"
+	"github.com/Wangbull/blink/internal/log"
+	"github.com/Wangbull/blink/pkg/alert"
 	"github.com/jlaffaye/ftp"
 	"github.com/lxn/win"
 )

@@ -8,8 +8,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/epkgs/blink"
-	"github.com/epkgs/blink/pkg/downloader"
+	"github.com/Wangbull/blink"
+	"github.com/Wangbull/blink/pkg/downloader"
 	"github.com/gin-gonic/gin"
 )
 

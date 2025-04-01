@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/epkgs/blink/internal/log"
+	"github.com/Wangbull/blink/internal/log"
 	"golang.org/x/sys/windows"
 )
 

@@ -4,7 +4,7 @@ import (
 	"embed"
 	"io/fs"
 
-	blink "github.com/epkgs/blink"
+	blink "github.com/Wangbull/blink"
 )
 
 //go:embed web

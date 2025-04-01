@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Wangbull/blink/internal/cast"
+	"github.com/Wangbull/blink/internal/log"
+	"github.com/Wangbull/blink/pkg/utils"
 	"github.com/chebyrash/promise"
-	"github.com/epkgs/blink/internal/cast"
-	"github.com/epkgs/blink/internal/log"
-	"github.com/epkgs/blink/pkg/utils"
 )
 
 const (

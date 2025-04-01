@@ -5,9 +5,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/epkgs/blink/internal/log"
-	dl "github.com/epkgs/blink/pkg/downloader"
-	"github.com/epkgs/blink/pkg/utils"
+	"github.com/Wangbull/blink/internal/log"
+	dl "github.com/Wangbull/blink/pkg/downloader"
+	"github.com/Wangbull/blink/pkg/utils"
 )
 
 type Config struct {

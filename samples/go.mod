@@ -3,7 +3,7 @@ module samples
 go 1.20
 
 require (
-	github.com/epkgs/blink v0.0.0-20240820152929-23142fe0eba6
+	github.com/Wangbull/blink v0.0.0-20240820152929-23142fe0eba6
 	github.com/gin-gonic/gin v1.10.0
 )
 

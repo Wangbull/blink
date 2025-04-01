@@ -5,7 +5,7 @@ import (
 	"io/fs"
 	"os"
 
-	blink "github.com/epkgs/blink"
+	blink "github.com/Wangbull/blink"
 )
 
 //go:embed static

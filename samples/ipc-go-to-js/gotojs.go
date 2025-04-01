@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 
-	blink "github.com/epkgs/blink"
+	blink "github.com/Wangbull/blink"
 )
 
 //go:embed resources
