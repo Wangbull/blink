@@ -1,4 +1,4 @@
-# MINI-BLINK
+# MINI-BLINK Test
 
 基于免费版的 [miniblink](https://miniblink.net/) 的 GO 封装，内嵌 miniblink 的 DLL，并根据构建环境自动选择 x86/x64 DLL
 
