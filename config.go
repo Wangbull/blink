@@ -23,6 +23,38 @@ type Config struct {
 	Downloader *dl.Downloader
 }
 
+func (conf *Config) TempPath() string {
+	return conf.tempPath
+}
+
+func (conf *Config) SetTempPath(tempPath string) {
+	conf.tempPath = tempPath
+}
+
+func (conf *Config) DllFile() string {
+	return conf.dllFile
+}
+
+func (conf *Config) SetDllFile(dllFile string) {
+	conf.dllFile = dllFile
+}
+
+func (conf *Config) StoragePath() string {
+	return conf.storagePath
+}
+
+func (conf *Config) SetStoragePath(storagePath string) {
+	conf.storagePath = storagePath
+}
+
+func (conf *Config) CookieFile() string {
+	return conf.cookieFile
+}
+
+func (conf *Config) SetCookieFile(cookieFile string) {
+	conf.cookieFile = cookieFile
+}
+
 func NewConfig(setups ...func(*Config)) (*Config, error) {
 
 	tempPath := filepath.Join(os.TempDir(), "mini-blink")
